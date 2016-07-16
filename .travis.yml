@@ -5,3 +5,11 @@ jdk:
 
 script:
   - echo "hello yml"
+
+notifications:
+  email:
+    recipients:
+      - wangyida911025@163.com
+    
+    on_success: change
+    on_failure: always
