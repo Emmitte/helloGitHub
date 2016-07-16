@@ -5,6 +5,7 @@ jdk:
 
 script:
   - echo "hello yml"
+  - echo "change yml"
 
 notifications:
   email:
