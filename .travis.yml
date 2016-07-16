@@ -12,5 +12,5 @@ notifications:
     recipients:
       - wangyida911025@163.com
     
-    on_success: change
+    on_success: always
     on_failure: always
